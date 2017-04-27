@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Colour">
+        <item>@string/Blue</item>/*2*/
+        <item>@string/Green</item>/*4*/
+        <item>@string/White</item> /*1*/
+        <item>@string/Gray</item>/*5*/
+        <item>@string/Red</item>/*3*/
+    </string-array>
+
+    <string-array name="Color_id">
+        <item>2</item>
+        <item>4</item>
+        <item>1</item>
+        <item>5</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="ColourButton">
+        <item>@string/Gray</item>
+        <item>@string/Blue</item>
+        <item>@string/Red</item>
+        <item>@string/Green</item>
+    </string-array>
+
+    <string-array name="Color_Button_id">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

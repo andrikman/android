@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Цвет"
+        >
+        <ListPreference
+            android:title="Цвет фона"
+            android:summary="Выберите цвет из списка"
+            android:key="ColourKey"
+            android:entries="@array/Colour"
+            android:entryValues="@array/Color_id"
+            android:defaultValue="1">
+
+        </ListPreference>
+        <ListPreference
+            android:title="Звет кнопки(настройки)"
+            android:summary="Выберите цвет из списка"
+            android:key="ColourButtonKey"
+            android:entries="@array/ColourButton"
+            android:entryValues="@array/Color_Button_id"
+            android:defaultValue="1">
+
+        </ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
